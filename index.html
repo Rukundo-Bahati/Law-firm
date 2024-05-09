@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Law Office" />
+		<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <meta name="author" content="A.K." />
+    <link rel="shortcut icon" href="img/wordlaw.png" />
+
+    <title>Law Office</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Bree+Serif"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mukta"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleblog.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <header>
+      <div class="header-full">
+        <nav class="navbar navbar-default">
+          <div class="container">
+            <a href="#myPage"
+              ><img
+                class="img-responsive logo-law"
+                src="https://res.cloudinary.com/daa09eu5f/image/upload/v1587554451/logo_vzzpql.png"
+                alt="logo-law"
+            /></a>
+            <div class="navbar-header nav-inline">
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <div class="menu-icon">
+                    <a href="#" class="icon-bars">
+                      <div class="icon-bar1"></div>
+                      <div class="icon-bar2"></div>
+                      <div class="icon-bar3"></div>
+                    </a>
+                  </div>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="welcome-header">
+          <h1>Welcome to law firm</h1>
+          <p>
+            The role of the lawyer varies greatly across legal jurisdictions,
+            and so it can be treated here in only the most general terms.
+          </p>
+        </div>
+        <div class="welcome-contact">
+          <div class="contact-info">
+            <p><i class="fa fa-phone"></i> Phone: 000-000-000</p>
+            <br />
+            <p><i class="fa fa-envelope"></i> Emal: johnsmith@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div id="myNav" class="overlay">
+        <div class="overlay-content">
+          <a href="#about">About</a>
+          <a href="#service">Services</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-section" id="about">
+      <div class="section-h1">
+        <h1>About</h1>
+        <hr class="hr-h1" />
+      </div>
+      <div class="container-fluid">
+        <div class="row slideanim">
+          <div class="col-md-6 col-sm-6 no-padding img-bg">
+            <img
+              src="https://res.cloudinary.com/daa09eu5f/image/upload/v1587554452/me_lfuhxt.jpg"
+              class="img-responsive img-me"
+              alt="Profile-img"
+            />
+          </div>
+
+          <div class="col-md-6 col-sm-6 no-padding img-text">
+            <div class="about-me">
+              <h3 class="text-center">John Smith</h3>
+            </div>
+
+            <div
+              id="myCarousel"
+              class="carousel slide img-txt-bg"
+              data-ride="carousel"
+            >
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#myCarousel"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+              </ol>
+
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <p>
+                    A lawyer is a person who practices law, as an advocate,
+                    barrister, attorney, counselor or solicitor or chartered
+                    legal executive.<br />
+                    Working as a lawyer involves the practical application of
+                    abstract legal theories.
+                    <br />
+                    And knowledge to solve specific individualized problems, or
+                    to advance the interests of those who hire lawyers to
+                    perform legal services.
+                    <br />
+                    The role of the lawyer varies greatly across legal
+                    jurisdictions, and so it can be treated here in only the
+                    most general terms.
+                    <br />
+                    And knowledge to solve specific individualized problems, or
+                    to advance the interests of those who hire lawyers to
+                    perform legal services.
+                    <br />
+                  </p>
+                </div>
+
+                <div class="item">
+                  <p>
+                    A lawyer is a person who practices law, as an advocate,
+                    barrister, attorney, counselor or solicitor or chartered
+                    legal executive.<br />
+                    Working as a lawyer involves the practical application of
+                    abstract legal theories.
+                    <br />
+                    And knowledge to solve specific individualized problems, or
+                    to advance the interests of those who hire lawyers to
+                    perform legal services.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a
+                class="left carousel-control sr-only"
+                href="#myCarousel"
+                role="button"
+                data-slide="prev"
+              >
+                <span class="sr-only" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="right carousel-control sr-only"
+                href="#myCarousel"
+                role="button"
+                data-slide="next"
+              >
+                <span class="sr-only" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-section" id="service">
+      <div class="section-h1">
+        <h1>Service</h1>
+        <hr class="hr-h1" />
+      </div>
+      <div class="container-fluid">
+        <div class="row slideanim">
+          <div class="tabpanel" role="tabpanel">
+            <div class="col-md-3 col-sm-3">
+              <ul class="nav nav-pills brand-pills nav-stacked" role="tablist">
+                <li role="presentation" class="brand-nav active">
+                  <a
+                    href="#tab1"
+                    aria-controls="tab1"
+                    role="tab"
+                    data-toggle="tab"
+                    >Property law</a
+                  >
+                </li>
+                <li role="presentation" class="brand-nav">
+                  <a
+                    href="#tab2"
+                    aria-controls="tab2"
+                    role="tab"
+                    data-toggle="tab"
+                    >Corporate law</a
+                  >
+                </li>
+                <li role="presentation" class="brand-nav">
+                  <a
+                    href="#tab3"
+                    aria-controls="tab3"
+                    role="tab"
+                    data-toggle="tab"
+                    >Competition law</a
+                  >
+                </li>
+                <li role="presentation" class="brand-nav">
+                  <a
+                    href="#tab4"
+                    aria-controls="tab4"
+                    role="tab"
+                    data-toggle="tab"
+                    >Labour law</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-9 col-sm-9">
+              <div class="tab-content">
+                <div
+                  role="tabpanel"
+                  class="tab-pane active slideanimleft"
+                  id="tab1"
+                >
+                  <h3 class="laws">Property law</h3>
+                  <hr class="laws-hr" />
+                  <p>
+                    Property law governs ownership and possession. Real
+                    property, sometimes called 'real estate', refers to
+                    ownership of land and things attached to it.[178] Personal
+                    property, refers to everything else; movable objects, such
+                    as computers, cars, jewelry or intangible rights, such as
+                    stocks and shares. A right in rem is a right to a specific
+                    piece of property, contrasting to a right in personam which
+                    allows compensation for a loss, but not a particular thing
+                    back.
+                  </p>
+                  <p>
+                    Land law forms the basis for most kinds of property law, and
+                    is the most complex. It concerns mortgages, rental
+                    agreements, licences, covenants, easements and the statutory
+                    systems for land registration.
+                  </p>
+                </div>
+                <div role="tabpanel" class="tab-pane slideanimleft" id="tab2">
+                  <h3 class="laws">Corporate law</h3>
+                  <hr class="laws-hr" />
+                  <p>
+                    Corporate law (also known as business law or enterprise law
+                    or company law or trade law or commercial law) is the body
+                    of law that applies to the rights, relations, and conduct of
+                    persons and businesses engaged in commerce, merchandising,
+                    trade, and sales.
+                  </p>
+                  <p>
+                    It studies how shareholders, directors, employees,
+                    creditors, and other stakeholders such as consumers, the
+                    community, and the environment interact with one another.
+                    Corporate law is a part of a broader companies law (or law
+                    of business associations). It is often considered to be a
+                    branch of civil law and deals with issues of both private
+                    law and public law.
+                  </p>
+                </div>
+                <div role="tabpanel" class="tab-pane slideanimleft" id="tab3">
+                  <h3 class="laws">Competition law</h3>
+                  <hr class="laws-hr" />
+                  <p>
+                    Competition law is a law that promotes or seeks to maintain
+                    market competition by regulating anti-competitive conduct by
+                    companies.[1][2] Competition law is implemented through
+                    public and private enforcement.
+                  </p>
+                  <p>
+                    Competition law is known as anti-trust law in the United
+                    States, and as anti-monopoly law in China[1] and Russia. In
+                    previous years it has been known as trade practices law in
+                    the United Kingdom and Australia. In the European Union, it
+                    is referred to as both antitrust[4] and competition law.
+                  </p>
+                </div>
+                <div role="tabpanel" class="tab-pane slideanimleft" id="tab4">
+                  <h3 class="laws">Labour law</h3>
+                  <hr class="laws-hr" />
+                  <p>
+                    Labour law (also known as labor law or employment law)
+                    mediates the relationship between workers, employing
+                    entities, trade unions and the government. Collective labour
+                    law relates to the tripartite relationship between employee,
+                    employer and union. Individual labour law concerns
+                    employees' rights at work and through the contract for work.
+                  </p>
+                  <p>
+                    Employment standards are social norms (in some cases also
+                    technical standards) for the minimum socially acceptable
+                    conditions under which employees or contractors are allowed
+                    to work.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-section" id="blog">
+      <div class="section-h1">
+        <h1><a href="blog.html">Blog</a></h1>
+        <hr class="hr-h1" />
+      </div>
+      <div class="container-fluid">
+        <div class="row slideanim">
+          <div class="post col-sm-4 col-md-4">
+            <div class="thumbnail">
+              <a href="post.html" class="img-blog">
+                <img
+                  src="https://res.cloudinary.com/daa09eu5f/image/upload/v1587554451/blog1_pn8qpq.jpg"
+                  class="img-responsive"
+                  alt="blog1"
+                />
+              </a>
+              <article class="post-desc">
+                <header class="header-blog">
+                  <a href="post.html"><h3 class="blog-h3">Criminal law</h3></a>
+                  <p class="post-meta">
+                    by
+                    <a href="post.html"
+                      ><span class="posted">John Smith </span></a
+                    >
+                    on
+                    <a href="post.html"
+                      ><span class="posted"> January 1st, 2017</span></a
+                    >
+                  </p>
+                </header>
+                <p class="text-blog">
+                  Criminal law, also known as penal law, pertains to crimes and
+                  punishment.[149] It thus regulates the definition of and ...
+                  <a href="#"><span class="badge-more">More</span></a>
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="post col-sm-4 col-md-4">
+            <div class="thumbnail">
+              <a href="404.html" class="img-blog">
+                <img
+                  src="https://res.cloudinary.com/daa09eu5f/image/upload/v1587554451/blog2_lkrarn.jpg"
+                  class="img-responsive"
+                  alt="blog2"
+                />
+              </a>
+              <article class="post-desc">
+                <header class="header-blog">
+                  <a href="404.html"
+                    ><h3 class="blog-h3">International law</h3></a
+                  >
+                  <p class="post-meta">
+                    by
+                    <a href="404.html"
+                      ><span class="posted">John Smith </span></a
+                    >
+                    on
+                    <a href="404.html"
+                      ><span class="posted"> January 1st, 2017</span></a
+                    >
+                  </p>
+                </header>
+                <p class="text-blog">
+                  International law can refer to three things: public
+                  international law, private international law or conflict of
+                  laws and the law ...
+                  <a href="404.html"><span class="badge-more">More</span></a>
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="post col-sm-4 col-md-4">
+            <div class="thumbnail">
+              <a href="404.html" class="img-blog">
+                <img
+                  src="https://res.cloudinary.com/daa09eu5f/image/upload/v1587554451/blog3_pfwcti.jpg"
+                  class="img-responsive"
+                  alt="blog3"
+                />
+              </a>
+              <article class="post-desc">
+                <header class="header-blog">
+                  <a href="404.html"><h3 class="blog-h3">Contract law</h3></a>
+                  <p class="post-meta">
+                    by
+                    <a href="404.html"
+                      ><span class="posted">John Smith </span></a
+                    >
+                    on
+                    <a href="404.html"
+                      ><span class="posted"> January 1st, 2017</span></a
+                    >
+                  </p>
+                </header>
+                <p class="text-blog">
+                  Contract law concerns enforceable promises, and can be summed
+                  up in the Latin phrase pacta sunt servanda (agreements ...
+                  <a href="404.html"><span class="badge-more">More</span></a>
+                </p>
+              </article>
+            </div>
+          </div>
+          <!-- /.post -->
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-section" id="testimonials">
+      <div class="section-h1">
+        <h1>Testimonials</h1>
+        <hr class="hr-h1" />
+      </div>
+      <div class="container-fluid">
+        <div class="row projects">
+          <div class="result-contatiner">
+            <div class="grid">
+              <div class="result small slideanim">
+                <div class="text">
+                  <p>
+                    The etymology of "bureaucracy" derives from the French word
+                    for "office"
+                  </p>
+                </div>
+              </div>
+              <div class="result big slideanim">
+                <div class="text">
+                  <p>
+                    The etymology of "bureaucracy" derives from the French word
+                    for "office" (bureau) and the Ancient Greek for word "power"
+                    (kratos).
+                  </p>
+                </div>
+              </div>
+              <div class="result big slideanim">
+                <div class="text">
+                  <p>
+                    The etymology of "bureaucracy" derives from the French word
+                    for "office" (bureau) and the Ancient Greek for word "power"
+                    (kratos).
+                  </p>
+                </div>
+              </div>
+              <div class="result small slideanim">
+                <div class="text">
+                  <p>
+                    The etymology of "bureaucracy" derives from the French word
+                    for "office"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-section" id="contact">
+      <div class="section-h1">
+        <h1>Contact</h1>
+        <hr class="hr-h1" />
+      </div>
+      <div class="contact-section">
+        <div class="container-fluid container-split">
+          <div class="row contacts slideanim">
+            <div class="col-md-4 col-sm-4">
+              <div class="cont-box contact-address">
+                <h4>Address</h4>
+                <hr class="hr-contact" />
+                <div class="text">
+                  <p>
+                    Kigali, KN 4 AVE<br />
+                    Kigali, Rwanda
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="cont-box contact-hours">
+                <h4>Open hours</h4>
+                <hr class="hr-contact" />
+                <div class="text">
+                  <p>
+                    Mon-Fri: 09:00-16:00<br />
+                    Sat-Sun: Closed
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+              <div class="cont-box contact-contact">
+                <h4>Contact</h4>
+                <hr class="hr-contact" />
+                <button
+                  type="button"
+                  class="btn btn-form text-center"
+                  id="more"
+                  data-toggle="collapse"
+                  data-target="#demo"
+                >
+                  <span class="caret"></span> Form
+                </button>
+
+                <div id="demo" class="collapse form-dropdown">
+                  <div ng-app="formApp" class="form-app">
+                    <div ng-controller="formController">
+                      <form
+                        novalidate
+                        action="mailto:rukundorca@.com"
+                        name="Bahatigroup"
+                        method="post"
+                      >
+                        <div class="form-group first-name">
+                          <label class="sr-only">First name:</label>
+                          <input
+                            type="text"
+                            name="name"
+                            ng-model="user.name"
+                            class="form-control"
+                            placeholder="First name"
+                            required
+                          />
+                          <span
+                            ng-show="frm.name.$dirty && frm.name.$error.required"
+                            >*</span
+                          >
+                        </div>
+                        <div class="form-group">
+                          <label class="sr-only">Last name:</label>
+                          <input
+                            type="text"
+                            name="surname"
+                            ng-model="user.surname"
+                            class="form-control"
+                            placeholder="Last name"
+                            required
+                          />
+                          <span
+                            ng-show="frm.surname.$dirty && frm.surname.$error.required"
+                            >*</span
+                          >
+                        </div>
+                        <div class="form-group">
+                          <label class="sr-only">Email:</label>
+                          <input
+                            type="email"
+                            name="email"
+                            ng-model="user.email"
+                            class="form-control"
+                            placeholder="Email"
+                            required
+                          />
+                          <span
+                            ng-show="frm.email.$dirty && frm.email.$error.required"
+                            >*</span
+                          >
+                        </div>
+                        <div class="form-group">
+                          <label class="sr-only" name="comment" for="comment"
+                            >Comment:</label
+                          >
+                          <textarea
+                            ng-model="user.comment"
+                            class="form-control"
+                            rows="5"
+                            id="comment"
+                            placeholder="Description"
+                          ></textarea>
+                        </div>
+                        <div class="contact-buttons pull-left">
+                          <button type="submit" name="submit" class="btn-two">
+                            Send
+                          </button>
+                          <button
+                            type="reset"
+                            class="btn-two"
+                            ng-click="reset()"
+                          >
+                            Reset
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row address-map">
+            <div id="googleMap" style="height: 300px; width: 100%"></div>
+
+            <!-- Add Google Maps -->
+            <script src="http://maps.googleapis.com/maps/api/js"></script>
+            <script>
+              const myCenter = new google.maps.LatLng(-1.9541, 30.0605);
+
+              function initialize() {
+                var mapProp = {
+                  center: myCenter,
+                  zoom: 13,
+                  styles: [
+                    {
+                      elementType: "geometry",
+                      stylers: [{ color: "#242f3e" }],
+                    },
+                    {
+                      elementType: "labels.text.stroke",
+                      stylers: [{ color: "#242f3e" }],
+                    },
+                    {
+                      elementType: "labels.text.fill",
+                      stylers: [{ color: "#746855" }],
+                    },
+
+                    {
+                      featureType: "administrative.locality",
+                      elementType: "labels.text.fill",
+                      stylers: [{ color: "#d59563" }],
+                    },
+                    {
+                      featureType: "poi",
+                      elementType: "labels.text.fill",
+                      stylers: [{ color: "#d59563" }],
+                    },
+                    {
+                      featureType: "poi.park",
+                      elementType: "geometry",
+                      stylers: [{ color: "#263c3f" }],
+                    },
+                    {
+                      featureType: "poi.park",
+                      elementType: "labels.text.fill",
+                      stylers: [{ color: "#6b9a76" }],
+                    },
+                    {
+                      featureType: "road",
+                      elementType: "geometry",
+                      stylers: [{ color: "#38414e" }],
+                    },
+                    {
+                      featureType: "road",
+                      elementType: "geometry.stroke",
+                      stylers: [{ color: "#212a37" }],
+                    },
+                    {
+                      featureType: "road",
+                      elementType: "labels.text.fill",
+                      stylers: [{ color: "#9ca5b3" }],
+                    },
+                    {
+                      featureType: "road.highway",
+                      elementType: "geometry",
+                      stylers: [{ color: "#746855" }],
+                    },
+                    {
+                      featureType: "road.highway",
+                      elementType: "geometry.stroke",
+                      stylers: [{ color: "#1f2835" }],
+                    },
+                    {
+                      featureType: "road.highway",
+                      elementType: "labels.text.fill",
+                      stylers: [{ color: "#f3d19c" }],
+                    },
+                    {
+                      featureType: "transit",
+                      elementType: "geometry",
+                      stylers: [{ color: "#2f3948" }],
+                    },
+                    {
+                      featureType: "transit.station",
+                      elementType: "labels.text.fill",
+                      stylers: [{ color: "#d59563" }],
+                    },
+                    {
+                      featureType: "water",
+                      elementType: "geometry",
+                      stylers: [{ color: "#17263c" }],
+                    },
+                    {
+                      featureType: "water",
+                      elementType: "labels.text.fill",
+                      stylers: [{ color: "#515c6d" }],
+                    },
+                    {
+                      featureType: "water",
+                      elementType: "labels.text.stroke",
+                      stylers: [{ color: "#17263c" }],
+                    },
+                  ],
+                  scrollwheel: false,
+                  draggable: false,
+                  mapTypeId: google.maps.MapTypeId.ROADMAP,
+                };
+
+                var map = new google.maps.Map(
+                  document.getElementById("googleMap"),
+                  mapProp
+                );
+
+                var marker = new google.maps.Marker({
+                  position: myCenter,
+                });
+
+                marker.setMap(map);
+              }
+
+              google.maps.event.addDomListener(window, "load", initialize);
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-footer" id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 text-center">
+            <div class="footer-info footer-company">
+              <h4>Law company</h4>
+              <hr class="hr-footer" align="left" />
+              <p>
+                A lawyer is a person who practices law, as an advocate,
+                barrister, attorney, counselor or solicitor or chartered legal
+                executive.
+              </p>
+              <div class="footer-icons">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 text-center">
+            <div class="footer-info footer-contacts">
+              <h4>Contact</h4>
+              <hr class="hr-footer" align="left" />
+              <div class="contacts">
+                <p><i class="fa fa-phone"></i> Phone: 000-000-000</p>
+                <p><i class="fa fa-envelope"></i> Emal: rukundorca@gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 text-center">
+            <div class="footer-info footer-links">
+              <h4>Social icons</h4>
+              <hr class="hr-footer" align="left" />
+              <ul class="nav-links">
+                <li><a href="#myPage">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a class="to-top" href="#myPage" title="toTop">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+
+    <div class="copyright">
+      <p>
+        &copy 2024 Developed by:
+        <a href="http://https://www.linkedin.com/in/bahati-samuel-293578302/" target="_blank">
+          Bahatigroup.com</a
+        >
+      </p>
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <script>
+      angular.module("formApp", []).controller("formController", [
+        "$scope",
+        function ($scope) {
+          $scope.master = {};
+
+          $scope.update = function (user) {
+            $scope.master = angular.copy(user);
+          };
+
+          $scope.reset = function () {
+            $scope.user = angular.copy($scope.master);
+          };
+
+          $scope.reset();
+        },
+      ]);
+    </script>
+  </body>
+</html>
